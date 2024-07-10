@@ -1,13 +1,5 @@
-
-
 function App() {
-
-
-  return (
-    <>
-      Привет
-    </>
-  )
+  return <>Привет</>;
 }
 
-export default App
+export default App;
