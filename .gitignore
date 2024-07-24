@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+
+# git pull https://github.com/ArtErusov/Orange
 # git add .
 # git commit -m “ ”
 # git push origin master

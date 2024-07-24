@@ -3,7 +3,13 @@
 :root {
   --black: #393939;
   --white: #ffffff;
+  --light-gray: #EDEDED;
 
+}
+
+.container{
+  width: 1470px;
+  margin: 0 auto;
 }
 
 * {
