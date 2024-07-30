@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+# test
 # git pull https://github.com/ArtErusov/Orange
 # git add .
 # git commit -m “ ”
