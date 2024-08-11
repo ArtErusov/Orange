@@ -2,7 +2,7 @@
     {
         "id": 1235234,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400221326b.jpg",
-        "price": "7 499 ₽",
+        "price": "7499",
         "platforms": [
             "ps5",
             "PC"
@@ -12,7 +12,7 @@
     {
         "id": 2432412,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400177672b.jpg",
-        "price": "9 950 ₽",
+        "price": "9950",
         "platforms": [
             "ps5"
         ],
@@ -21,9 +21,8 @@
     {
         "id": 3421654,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400083897b.jpg",
-        "label": "28%",
-        "discount": "5 999 ̶₽",
-        "price": "4 499 ₽",
+        "label": "28",
+        "price": "4499",
         "platforms": [
             "ps4",
             "Xbox",
@@ -35,9 +34,8 @@
     {
         "id": 4825632,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078428b.jpg",
-        "label": "30%",
-        "discount": "5950 ₽",
-        "price": "4950 ₽",
+        "label": "30",
+        "price": "4950",
         "platforms": [
             "Xbox",
             "ps5"
@@ -47,9 +45,8 @@
     {
         "id": 5821324,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400120392b.jpg",
-        "label": "20%",
-        "discount": "5999 ₽",
-        "price": "4999 ₽",
+        "label": "20",
+        "price": "4999",
         "platforms": [
             "Xbox"
         ],
@@ -58,7 +55,7 @@
     {
         "id": 63265963,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400146620b.jpg",
-        "price": "7 599 ₽",
+        "price": "7599",
         "platforms": [
             "Switch",
             "Xbox",
@@ -69,9 +66,8 @@
     {
         "id": 7633453,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078771b.jpg",
-        "label": "24%",
-        "discount": "5999 ₽",
-        "price": "4499 ₽",
+        "label": "24",
+        "price": "4499",
         "platforms": [
             "Xbox",
             "ps5",
@@ -82,9 +78,8 @@
     {
         "id": 8925185,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400076052b.jpg",
-        "label": "34%",
-        "discount": "6999 ₽",
-        "price": "4899 ₽",
+        "label": "34",
+        "price": "4899",
         "platforms": [
             "Xbox",
             "ps5",
@@ -95,7 +90,7 @@
     {
         "id": 9324235,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400131129b.jpg",
-        "price": "5899 ₽",
+        "price": "5899",
         "platforms": [
             "Xbox",
             "ps5",
@@ -106,9 +101,8 @@
     {
         "id": 1041212,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40079003b.jpg",
-        "label": "2%",
-        "discount": "4899 ₽",
-        "price": "4680 ₽",
+        "label": "2",
+        "price": "4680",
         "platforms": [
             "Xbox",
             "ps5",

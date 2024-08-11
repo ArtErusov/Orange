@@ -1,10 +1,6 @@
 @import '../../../../assets/css/main.css';
 
-.cardContainer{
-    // ====удалить
-    margin-top: 20px;
-    margin-left: 300px;
-    // =====
+.cardContainer {
     width: 446px;
     height: 289px;
     border-radius: 14px;
@@ -12,23 +8,129 @@
     display: flex;
 }
 
-.left{
+.left {
     margin-left: 15px;
-    p{
+
+    p {
         margin-top: 24px;
         font-weight: 700;
         font-size: 24px;
     }
-    img{
+
+    img {
         margin-top: 21px;
-        border: 1px solid var(--gray);
         width: 200px;
         height: 200px;
     }
 }
 
-.right{
-    background-color: #dbbdbd;
-    width: 100px;
-    height: 100px;
+.right {
+    margin-left: 28px;
+    position: relative;
+
+    &_timer {
+        margin-top: 15px;
+        display: flex;
+
+        p {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        &_box {
+            text-align: center;
+            padding-top: 10px;
+            background-color: var(--light-gray);
+            border-radius: 6px;
+            width: 46px;
+            height: 46px;
+        }
+
+        &_separator {
+            margin: 6px 10px 0;
+        }
+    }
+
+    &_label {
+        display: flex;
+        position: absolute;
+        top: 82px;
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--white);
+            margin-top: 3px;
+        }
+
+        &_gray {
+            width: 134px;
+            height: 20px;
+            background-color: var(--dark-gray);
+            position: relative;
+            border-radius: 15px 3px 15px 3px;
+
+            p {
+                margin-left: 10px;
+            }
+        }
+
+        &_red {
+            border-radius: 15px 3px 15px 3px;
+            height: 20px;
+            width: 52px;
+            background-color: var(--red);
+            z-index: 1;
+            position: absolute;
+            right: 0;
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+    &_price {
+        display: flex;
+        &_end {
+            
+            margin-top: 62px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+        &_old{
+            margin-left: 10px;
+            margin-top: 68px;
+            position: relative;
+            div{
+                width: 100%;
+                height: 1px;
+                background-color: var(--red);
+                position: absolute;
+                z-index: 1;
+                top: 8px;
+            }
+            p{
+                padding: 0 4px;
+                font-size: 16px;
+                color: var(--dark-gray);
+            }
+
+        }
+    }
+    &_text {
+        width: 188px;
+        height: 72px;
+        margin-top: 8px;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    &_btn {
+        padding: 10px 25px;
+        background-color: var(--orange);
+        border-radius: 50px;
+        color: var(--white);
+        font-weight: 700;
+        margin: 5px 0 0 28px;
+    }
 }
