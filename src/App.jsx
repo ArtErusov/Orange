@@ -1,7 +1,7 @@
 import Header from './components/header/header';
 import MainPages from './pages/mainPages/mainPages';
-import data from './data.json';
-import TimeMain from './components/ui/card/mainCard/mainCard';
+
+
 
 
 function App() {
@@ -9,9 +9,6 @@ function App() {
     <>
       <Header />
       <MainPages />
-      {data.map((item) => (
-       <TimeMain key={item.src} data={item}/> 
-      ))}
     </>
   );
 }
