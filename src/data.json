@@ -109,5 +109,28 @@
             "Switch"
         ],
         "text": "Bandai Namco Elden Ring русские субтитры"
+    },
+    {
+        "id": 11435667,
+        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400081693b.jpg",
+        "price": "4899",
+        "label": "11",
+        "platforms": [
+            "Xbox",
+            "ps5",
+            "ps4"
+        ],
+        "text": "Focus Home Atomic Heart"
+    },
+    {
+        "id": 125476,
+        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400282660b.jpg",
+        "price": "9899",
+        "label": "69",
+        "platforms": [
+            "ps5",
+            "ps4"
+        ],
+        "text": "Sony The Last of Us Part 2. Remastered"
     }
 ]
