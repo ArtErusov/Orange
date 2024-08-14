@@ -1,9 +1,12 @@
 @import '../../../../assets/css/main.css';
-.banner_section{
-    margin-top: 40px;
-}
 // ============Banner==============
 // Временная заглушка
+
+.banner{
+    display: flex;
+    margin-top: 40px;
+    gap: 46px;
+}
 
 .placeholder{
     margin-left: 20px;

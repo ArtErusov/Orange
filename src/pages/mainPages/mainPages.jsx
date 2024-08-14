@@ -1,10 +1,10 @@
-import BannerSection from './components/bannerSection/bannerSection';
+import Banner from './components/bannerSection/banner';
 import ProductsSection from './components/productsSection/productsSection';
 
 const MainPages = () => {
   return (
     <>
-      <BannerSection />
+      <Banner />
       <ProductsSection />
     </>
   );

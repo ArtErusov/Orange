@@ -1,6 +1,7 @@
 @import '../../../../../../assets/css/main.css';
 
 .sort {
+  margin-right: 20px;
   width: 300px;
   padding: 10px 10px;
   color: var(--black);
@@ -23,7 +24,7 @@
     border-radius: 14px;
     padding: 8px 12px;
     &:hover{
-      background-color: rgb(252, 252, 252);
+      background-color: rgb(255, 250, 245);
       font-weight: 700;
     }
   }
