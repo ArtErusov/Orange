@@ -1,0 +1,30 @@
+@import '../../../../../../assets/css/main.css';
+
+.sort {
+  width: 300px;
+  padding: 10px 10px;
+  color: var(--black);
+  border-radius: 14px;
+  border: 1px solid var(--gray);
+  display: flex;
+  justify-content: space-between;
+}
+.ul {
+  position: relative;
+  ul {
+    margin-top: 2px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+  }
+
+  li {
+    cursor: pointer;
+    border-radius: 14px;
+    padding: 8px 12px;
+    &:hover{
+      background-color: rgb(252, 252, 252);
+      font-weight: 700;
+    }
+  }
+}

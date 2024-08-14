@@ -2,13 +2,13 @@ import { useState } from 'react';
 import styles from './styles.module.scss';
 
 const SelectСategory = () => {
-  const [activCatygory, setActivCatygory] = useState(1254);
+  const [activCatygory, setActivCatygory] = useState('idCat1254');
   const categories = [
-    { id: 1254, name: 'Все игры' },
-    { id: 2214, name: 'Ps 5' },
-    { id: 3457, name: 'Ps 4' },
-    { id: 4312, name: 'Xbox' },
-    { id: 5251, name: 'Switch' },
+    { id: 'idCat1254', name: 'Все игры' },
+    { id: 'idCat2214', name: 'Ps 5' },
+    { id: 'idCat3457', name: 'Ps 4' },
+    { id: 'idCat4312', name: 'Xbox' },
+    { id: 'idCat5251', name: 'Switch' },
   ];
 
   return (

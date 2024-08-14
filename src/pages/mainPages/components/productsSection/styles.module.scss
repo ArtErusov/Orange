@@ -1,12 +1,5 @@
 @import '../../../../assets/css/main.css';
-.banner_section{
-    margin-top: 40px;
-}
-// ============Banner==============
-// Временная заглушка
-
-.placeholder{
-    margin-left: 20px;
-    width: 938px;
-    height: 289px;
+.flex{
+    display: flex;
+    justify-content: space-between;
 }

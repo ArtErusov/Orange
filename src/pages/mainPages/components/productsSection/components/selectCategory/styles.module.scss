@@ -1,0 +1,30 @@
+@import '../../../../../../assets/css/main.css';
+
+.cat {
+  display: flex;
+
+  &_item {
+    padding: 10px 20px;
+    background-color: var(--light-gray);
+    font-size: 16px;
+    color: var(--black);
+    border-radius: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    &:hover {
+      background-color: var(--light-orange);
+      color: var(--white);
+    }
+  }
+  &_active {
+    padding: 10px 20px;
+    background-color: var(--orange);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    border-radius: 14px;
+    margin-left: 20px;
+    cursor: pointer; 
+  }
+}
