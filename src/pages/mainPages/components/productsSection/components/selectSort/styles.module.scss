@@ -17,12 +17,15 @@
     width: 300px;
     position: absolute;
     top: 0;
+    z-index: 1;
   }
 
   li {
     cursor: pointer;
     border-radius: 14px;
     padding: 8px 12px;
+    z-index: 1;
+    background-color: var(--white);
     &:hover{
       background-color: rgb(255, 250, 245);
       font-weight: 700;
