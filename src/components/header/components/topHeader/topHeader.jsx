@@ -37,7 +37,13 @@ const TopHeader = () => {
               }
             </div>
           </div>
-          <div>MSK</div>
+          <ul className={styles.right}>
+            <li><a>Кредит</a></li>
+            <li><a>Рассрочка</a></li>
+            <li><a className={styles.right_bolt} href="https://github.com/ArtErusov">GitHub</a></li>
+            <li><a className={styles.right_bolt} href="https://github.com/ArtErusov">Портфолио</a></li>
+            <li></li>
+          </ul>
         </div>
 
       </div>

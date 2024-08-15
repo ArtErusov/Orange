@@ -1,41 +1,56 @@
 @import '../../../../assets/css/main.css';
-.HeadCont{
+
+.HeadCont {
     width: 100%;
     height: 24px;
     background-color: var(--light-gray);
 }
 
-.city{
+.city {
     margin-top: 3px;
     margin-left: 20px;
     display: flex;
-   
-    p{
-        
+
+    p {
         margin-right: 3px;
     }
-    &_select{ position: relative;
-        cursor: pointer ;
+
+    &_select {
+        position: relative;
+        cursor: pointer;
         display: flex;
-        img{
+
+        img {
             margin-left: 10px;
         }
     }
 }
 
-.drop{
+.drop {
     position: absolute;
-    left:-15px;
-    top:20px;
+    left: -15px;
+    top: 20px;
     background-color: var(--white);
     z-index: 2;
-    li{
+
+    li {
         padding: 5px 15px;
-        // margin-top: 5px;
         width: 100%;
-        &:hover{
+
+        &:hover {
             background-color: var(--light-orange);
-            color: var(--white);  
+            color: var(--white);
         }
+    }
+}
+
+.right {
+    display: flex;
+    margin: 3px 10px 0 0;
+    li{
+        margin-left: 10px;
+    }
+    &_bolt{
+        font-weight: 700;
     }
 }
