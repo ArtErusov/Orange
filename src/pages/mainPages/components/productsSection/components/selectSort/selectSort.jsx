@@ -15,7 +15,7 @@ const SelectSort = () => {
   const handlerSort = (itemId) => {
     setListIsActive(false);
     setActivSort(itemId);
-  };
+  }; 
 
   return (
     <div>
