@@ -1,7 +1,57 @@
 @import '../../assets/css/main.css';
 
-.test{
-    width: 100%;
-    height: 100px;
-    background-color: var(--light-gray);
+.header {
+    display: flex;
+
+    &_logo {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    &_catalog {
+        margin: 15px 0 0 25px;
+    }
+
+    &_search {
+        margin: 15px 0 0 25px;
+        width: 826px;
+        height: 52px;
+        border: 2px solid var(--orange);
+        border-radius: 50px;
+        padding: 1px 0 0 20px;
+        // position: relative;
+
+        &_icon {
+            position: absolute;
+            top: 21px;
+            right: 7px;
+            width: 40px;
+            height: 40px;
+            background-color: var(--orange);
+            border-radius: 50px;
+
+            img {
+                padding: 11px 0 0 11px;
+            }
+        }
+    }
+    &_choice{
+        margin-top: 20px;
+        display: flex;
+        margin-left: 30px;
+        &_favorites{
+            margin-top: 3px;
+            img{
+                margin-left: 32px;
+                margin-bottom: 4px;
+            }
+        }
+        &_basket{
+            margin-left: 30px;
+            img{
+                margin-left: 20px;
+                margin-bottom: 4px;
+            }
+        }
+    }
 }
