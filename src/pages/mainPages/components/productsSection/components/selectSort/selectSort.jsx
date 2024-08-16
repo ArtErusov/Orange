@@ -23,7 +23,7 @@ const SelectSort = () => {
         <div >{sortList.find((item) => item.id === activSort).name}</div>
         {listIsActive ? <img src={closeIcons} alt="" /> : <img src={revealIcons} alt="" />}
       </div>
-      {listIsActive ? (
+      {listIsActive && (
         <div className={styles.ul}>
           <ul>
             {sortList
@@ -35,7 +35,7 @@ const SelectSort = () => {
               ))}
           </ul>
         </div>
-      ) : null}
+      )}
     </div>
   );
 };

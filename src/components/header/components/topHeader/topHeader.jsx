@@ -30,11 +30,10 @@ const TopHeader = () => {
                 :
                 (<img src={revealIcons} alt="" />)
               }
-              {isActive ?
+              {isActive &&
                 (<ul className={styles.drop}>
-                  {cities.filter((item) => item.id !== isActiveCity).map((item) =>(<li onClick={() => setIsActiveCity(item.id)} key={item.id}>{item.name}</li>))}
-                </ul>) : null
-              }
+                  {cities.filter((item) => item.id !== isActiveCity).map((item) => (<li onClick={() => setIsActiveCity(item.id)} key={item.id}>{item.name}</li>))}
+                </ul>)}
             </div>
           </div>
           <ul className={styles.right}>
