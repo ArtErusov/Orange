@@ -5,18 +5,16 @@ import SelectSort from './components/selectSort/selectSort';
 // import data from '../../../../data.json';
 import MainCard from '../../../../components/ui/card/mainCard/mainCard';
 
-
 const ProductsSection = () => {
-
   const [items, setItems] = useState([]);
 
-useEffect(() => {
-  fetch('https://65523e2c5c69a7790329c0eb.mockapi.io/items')
-    .then((item) => item.json())
-    .then((array) => {
-      setItems(array);
-    });
-}, [setItems]);
+  useEffect(() => {
+    fetch('https://65523e2c5c69a7790329c0eb.mockapi.io/items')
+      .then((item) => item.json())
+      .then((array) => {
+        setItems(array);
+      });
+  }, [setItems]);
 
   return (
     <>

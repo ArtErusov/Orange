@@ -15,12 +15,12 @@ const SelectSort = () => {
   const handlerSort = (itemId) => {
     setListIsActive(false);
     setActivSort(itemId);
-  }; 
+  };
 
   return (
     <div>
       <div onClick={() => setListIsActive(!listIsActive)} className={styles.sort}>
-        <div >{sortList.find((item) => item.id === activSort).name}</div>
+        <div>{sortList.find((item) => item.id === activSort).name}</div>
         {listIsActive ? <img src={closeIcons} alt="" /> : <img src={revealIcons} alt="" />}
       </div>
       {listIsActive && (
