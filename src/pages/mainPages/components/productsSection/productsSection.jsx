@@ -8,6 +8,27 @@ import MainCard from '../../../../components/ui/card/mainCard/mainCard';
 import SceletonMainCard from '../../../../components/ui/sceleton/sceletonMainCard/sceletonMainCard';
 
 const ProductsSection = () => {
+ 
+  // =========logic for selectCategory=========
+  const [activCatygory, setActivCatygory] = useState('idCat1254');
+  const categories = [
+    { id: 'idCat1254', name: 'Все игры' },
+    { id: 'idCat2214', name: 'Ps 5' },
+    { id: 'idCat3457', name: 'Ps 4' },
+    { id: 'idCat4312', name: 'Xbox' },
+    { id: 'idCat5251', name: 'Switch' },
+  ];
+  const handleCatygory = (id) => setActivCatygory(id);
+   // =========logic for selectSort=========
+   const [activSort, setActivSort] = useState('idSort1032');
+   const sortList = [
+    { id: 'idSort1032', name: 'Сначала популярные' },
+    { id: 'idSort2678', name: 'Сначала дешевле' },
+    { id: 'idSort3219', name: 'Сначала дороже' },
+  ];
+  const handlerSort = (id) => setActivSort(id);
+
+  //=========Request for mocapiapi======= 
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -19,13 +40,13 @@ const ProductsSection = () => {
         setIsLoading(false)
       });
   }, [setItems]);
-
+// ======================================
   return (
     <>
       <div className={styles.container}>
         <div className={styles.flex}>
-          <SelectСategory />
-          <SelectSort />
+          <SelectСategory  activCatygory={activCatygory} categories={categories} handleCatygory={handleCatygory}/>
+          <SelectSort sortList={sortList} activSort={activSort} handlerSort={handlerSort}/>
         </div>
         <div className={styles.gridCont}>
           {isLoading 

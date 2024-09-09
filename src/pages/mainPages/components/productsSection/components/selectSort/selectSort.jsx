@@ -3,18 +3,13 @@ import styles from './styles.module.scss';
 import closeIcons from '/img/svg/closeIcons.svg';
 import revealIcons from '/img/svg/revealIcons.svg';
 
-const SelectSort = () => {
+const SelectSort = ({sortList, activSort, handlerSort}) => {
   const [listIsActive, setListIsActive] = useState(false);
-  const [activSort, setActivSort] = useState('idSort1032');
-  const sortList = [
-    { id: 'idSort1032', name: 'Сначала популярные' },
-    { id: 'idSort2678', name: 'Сначала дешевле' },
-    { id: 'idSort3219', name: 'Сначала дороже' },
-  ];
+  // const [activSort, setActivSort] = useState('idSort1032');
 
-  const handlerSort = (itemId) => {
+  const funSort = (itemId) => {
     setListIsActive(false);
-    setActivSort(itemId);
+    handlerSort(itemId);
   };
 
   return (
@@ -29,7 +24,7 @@ const SelectSort = () => {
             {sortList
               .filter((item) => item.id !== activSort)
               .map((item) => (
-                <li onClick={() => handlerSort(item.id)} key={item.id}>
+                <li onClick={() => funSort(item.id)} key={item.id}>
                   {item.name}
                 </li>
               ))}
