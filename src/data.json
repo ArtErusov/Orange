@@ -3,6 +3,8 @@
         "id": 1235234,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400221326b.jpg",
         "price": "7499",
+        "rating": "3.7",
+        "review": "43",
         "platforms": [
             "ps5",
             "PC"
@@ -13,6 +15,8 @@
         "id": 2432412,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400177672b.jpg",
         "price": "9950",
+        "rating": "4.2",
+        "review": "682",
         "platforms": [
             "ps5"
         ],
@@ -23,6 +27,8 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400083897b.jpg",
         "label": "28",
         "price": "4499",
+        "rating": "4.8",
+        "review": "91",
         "platforms": [
             "ps4",
             "Xbox",
@@ -36,6 +42,8 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078428b.jpg",
         "label": "30",
         "price": "4950",
+        "rating": "2.7",
+        "review": "45",
         "platforms": [
             "Xbox",
             "ps5"
@@ -47,6 +55,8 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400120392b.jpg",
         "label": "20",
         "price": "4999",
+        "rating": "3.9",
+        "review": "3",
         "platforms": [
             "Xbox"
         ],
@@ -56,6 +66,8 @@
         "id": 63265963,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400146620b.jpg",
         "price": "7599",
+        "rating": "4",
+        "review": "263",
         "platforms": [
             "Switch",
             "Xbox",
@@ -68,6 +80,8 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078771b.jpg",
         "label": "24",
         "price": "4499",
+        "rating": "5",
+        "review": "784",
         "platforms": [
             "Xbox",
             "ps5",
@@ -80,6 +94,8 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400076052b.jpg",
         "label": "34",
         "price": "4899",
+        "rating": "4.1",
+        "review": "32",
         "platforms": [
             "Xbox",
             "ps5",
@@ -91,6 +107,8 @@
         "id": 9324235,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400131129b.jpg",
         "price": "5899",
+        "rating": "4.4",
+        "review": "145",
         "platforms": [
             "Xbox",
             "ps5",
@@ -103,17 +121,21 @@
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/40079003b.jpg",
         "label": "2",
         "price": "4680",
+        "rating": "2.2",
+        "review": "56",
         "platforms": [
             "Xbox",
             "ps5",
             "Switch"
         ],
-        "text": "Bandai Namco Elden Ring русские субтитры"
+        "text": "a PLAGUETALE REQUIEM русские субтитры"
     },
     {
         "id": 11435667,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400081693b.jpg",
         "price": "4899",
+        "rating": "3.8",
+        "review": "87",
         "label": "11",
         "platforms": [
             "Xbox",
@@ -126,6 +148,8 @@
         "id": 125476,
         "src": "https://img.mvideo.ru/Pdb/small_pic/480/400282660b.jpg",
         "price": "9899",
+        "rating": "4.9",
+        "review": "456",
         "label": "69",
         "platforms": [
             "ps5",
