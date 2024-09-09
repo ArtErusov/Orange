@@ -33,7 +33,7 @@ const MainCard = ({ data }) => {
         <img src={star} alt="" />
         <img src={star} alt="" />
         <img src={star} alt="" />
-        <p>3687</p>
+        <p>{`${data.rating} ( ${data.review} )`}</p>
       </div>
       <div className={styles.card_botton}>
         <button>в корзину</button>
