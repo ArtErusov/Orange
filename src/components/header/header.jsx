@@ -7,13 +7,16 @@ import logoHeader from '/img/svg/logoHeader.svg';
 import searchIcon from '/img/svg/searchIcon.svg';
 import favouritesIconGray from '/img/svg/favouritesIconGray.svg';
 import basketIcon from '/img/svg/basketIcon.svg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <>
       <TopHeader />
       <div className={styles.container + " " + styles.header}>
+        <Link to="/">
         <img className={styles.header_logo} src={logoHeader} alt="" />
+        </Link>
         <div className={styles.header_catalog}>
           <Catalog />
         </div>
