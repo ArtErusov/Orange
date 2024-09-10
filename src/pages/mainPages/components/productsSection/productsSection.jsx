@@ -12,34 +12,40 @@ const ProductsSection = () => {
   // =========logic for selectCategory=========
   const [activCatygory, setActivCatygory] = useState('idCat1254');
   const categories = [
-    { id: 'idCat1254', name: 'Все игры' },
-    { id: 'idCat2214', name: 'Ps 5' },
-    { id: 'idCat3457', name: 'Ps 4' },
-    { id: 'idCat4312', name: 'Xbox' },
-    { id: 'idCat5251', name: 'Switch' },
+    { id: 'idCat1254', name: 'Все игры' , sortProperty: '' },
+    { id: 'idCat2214', name: 'Ps 5' , sortProperty: '' },
+    { id: 'idCat3457', name: 'Ps 4' , sortProperty: '' },
+    { id: 'idCat4312', name: 'Xbox' , sortProperty: '' },
+    { id: 'idCat5251', name: 'Switch' , sortProperty: '' },
   ];
-  const handleCatygory = (id) => setActivCatygory(id);
+  const handleCatygory = (id) =>setActivCatygory(id);
    // =========logic for selectSort=========
    const [activSort, setActivSort] = useState('idSort1032');
    const sortList = [
-    { id: 'idSort1032', name: 'Сначала популярные' },
-    { id: 'idSort2678', name: 'Сначала дешевле' },
-    { id: 'idSort3219', name: 'Сначала дороже' },
+    { id: 'idSort1032', name: 'Сначала популярные' , sortProperty: 'review', sort: 'desc' },
+    { id: 'idSort2678', name: 'Сначала дешевле' , sortProperty: 'price', sort: 'asc' },
+    { id: 'idSort3219', name: 'Высокий рейтинг' , sortProperty: 'rating', sort: 'desc' },
+    { id: 'idSort4678', name: 'Низкий рейтинг' , sortProperty: 'rating', sort: 'asc' },
+    { id: 'idSort5678', name: 'Колличество отзывов' , sortProperty: 'review', sort: 'desc' },
+    { id: 'idSort6567', name: 'Величина скидки' , sortProperty: 'label', sort: 'desc' },
   ];
-  const handlerSort = (id) => setActivSort(id);
+  const handlerSort = (id) =>setActivSort(id);
+  const sortListProperty = sortList.find((item) => item.id === activSort).sortProperty;
+  const sortListVolume = sortList.find((item) => item.id === activSort).sort;
 
   //=========Request for mocapiapi======= 
   const [items, setItems] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://65523e2c5c69a7790329c0eb.mockapi.io/items')
+    setIsLoading(true)
+    fetch(`https://65523e2c5c69a7790329c0eb.mockapi.io/items?&sortBy=${sortListProperty}&order=${sortListVolume}`)
       .then((item) => item.json())
       .then((array) => {
         setItems(array);
         setIsLoading(false)
       });
-  }, [setItems]);
+  }, [setItems, setActivCatygory, setActivSort, sortListProperty]);
 // ======================================
   return (
     <>
@@ -50,7 +56,7 @@ const ProductsSection = () => {
         </div>
         <div className={styles.gridCont}>
           {isLoading 
-          ? [... new Array(8)].map((_, index) => <SceletonMainCard key={index}/> )
+          ? [... new Array(12)].map((_, index) => <SceletonMainCard key={index}/> )
           : items.map((item) => <MainCard key={item.id} data={item} /> )
           }
         </div>

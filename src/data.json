@@ -1,160 +1,164 @@
 [
     {
-        "id": 1235234,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400221326b.jpg",
-        "price": "7499",
-        "rating": "3.7",
-        "review": "43",
-        "platforms": [
-            "ps5",
-            "PC"
-        ],
-        "text": "CI Games Lords of the Fallen"
+      "id": 1235234,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400221326b.jpg",
+      "price": "7499",
+      "label": "0",
+      "rating": "3.7",
+      "review": "43",
+      "platforms": [
+        "ps5",
+        "PC"
+      ],
+      "text": "CI Games Lords of the Fallen"
     },
     {
-        "id": 2432412,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400177672b.jpg",
-        "price": "9950",
-        "rating": "4.2",
-        "review": "682",
-        "platforms": [
-            "ps5"
-        ],
-        "text": "PlayStation Marvel's Spider-Man 2"
+      "id": 2432412,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400177672b.jpg",
+      "price": "9950",
+      "rating": "4.2",
+      "label": "0",
+      "review": "682",
+      "platforms": [
+        "ps5"
+      ],
+      "text": "PlayStation Marvel's Spider-Man 2"
     },
     {
-        "id": 3421654,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400083897b.jpg",
-        "label": "28",
-        "price": "4499",
-        "rating": "4.8",
-        "review": "91",
-        "platforms": [
-            "ps4",
-            "Xbox",
-            "ps5",
-            "PC"
-        ],
-        "text": "Capcom Resident Evil 4 Remake Стандартное издание"
+      "id": 3421654,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400083897b.jpg",
+      "label": "28",
+      "price": "4499",
+      "rating": "4.8",
+      "review": "91",
+      "platforms": [
+        "ps4",
+        "Xbox",
+        "ps5",
+        "PC"
+      ],
+      "text": "Capcom Resident Evil 4 Remake Стандартное издание"
     },
     {
-        "id": 4825632,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078428b.jpg",
-        "label": "30",
-        "price": "4950",
-        "rating": "2.7",
-        "review": "45",
-        "platforms": [
-            "Xbox",
-            "ps5"
-        ],
-        "text": "Square Enix Forspoken, русские субтитры"
+      "id": 4825632,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078428b.jpg",
+      "label": "30",
+      "price": "4950",
+      "rating": "2.7",
+      "review": "45",
+      "platforms": [
+        "Xbox",
+        "ps5"
+      ],
+      "text": "Square Enix Forspoken, русские субтитры"
     },
     {
-        "id": 5821324,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400120392b.jpg",
-        "label": "20",
-        "price": "4999",
-        "rating": "3.9",
-        "review": "3",
-        "platforms": [
-            "Xbox"
-        ],
-        "text": "WB Games Hogwarts Legacy Стандартное издание"
+      "id": 5821324,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400120392b.jpg",
+      "label": "20",
+      "price": "4999",
+      "rating": "3.9",
+      "review": "3",
+      "platforms": [
+        "Xbox"
+      ],
+      "text": "WB Games Hogwarts Legacy Стандартное издание"
     },
     {
-        "id": 63265963,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400146620b.jpg",
-        "price": "7599",
-        "rating": "4",
-        "review": "263",
-        "platforms": [
-            "Switch",
-            "Xbox",
-            "ps5"
-        ],
-        "text": "WB Games Mortal Kombat 1"
+      "id": 63265963,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400146620b.jpg",
+      "price": "7599",
+      "rating": "4",
+      "label": "0",
+      "review": "263",
+      "platforms": [
+        "Switch",
+        "Xbox",
+        "ps5"
+      ],
+      "text": "WB Games Mortal Kombat 1"
     },
     {
-        "id": 7633453,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078771b.jpg",
-        "label": "24",
-        "price": "4499",
-        "rating": "5",
-        "review": "784",
-        "platforms": [
-            "Xbox",
-            "ps5",
-            "Switch"
-        ],
-        "text": "Bandai Namco Elden Ring русские субтитры"
+      "id": 7633453,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/40078771b.jpg",
+      "label": "24",
+      "price": "4499",
+      "rating": "5",
+      "review": "784",
+      "platforms": [
+        "Xbox",
+        "ps5",
+        "Switch"
+      ],
+      "text": "Bandai Namco Elden Ring русские субтитры"
     },
     {
-        "id": 8925185,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400076052b.jpg",
-        "label": "34",
-        "price": "4899",
-        "rating": "4.1",
-        "review": "32",
-        "platforms": [
-            "Xbox",
-            "ps5",
-            "Switch"
-        ],
-        "text": "Square Enix Crisis Core: Final Fantasy VII Reunion"
+      "id": 8925185,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400076052b.jpg",
+      "label": "34",
+      "price": "4899",
+      "rating": "4.1",
+      "review": "32",
+      "platforms": [
+        "Xbox",
+        "ps5",
+        "Switch"
+      ],
+      "text": "Square Enix Crisis Core: Final Fantasy VII Reunion"
     },
     {
-        "id": 9324235,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400131129b.jpg",
-        "price": "5899",
-        "rating": "4.4",
-        "review": "145",
-        "platforms": [
-            "Xbox",
-            "ps5",
-            "PC"
-        ],
-        "text": "Deep Silver Dead Island 2 Издание первого дня"
+      "id": 9324235,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400131129b.jpg",
+      "price": "5899",
+      "rating": "4.4",
+      "label": "0",
+      "review": "145",
+      "platforms": [
+        "Xbox",
+        "ps5",
+        "PC"
+      ],
+      "text": "Deep Silver Dead Island 2 Издание первого дня"
     },
     {
-        "id": 1041212,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/40079003b.jpg",
-        "label": "2",
-        "price": "4680",
-        "rating": "2.2",
-        "review": "56",
-        "platforms": [
-            "Xbox",
-            "ps5",
-            "Switch"
-        ],
-        "text": "A PLAGUETALE REQUIEM русские субтитры"
+      "id": 1041212,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/40079003b.jpg",
+      "label": "2",
+      "price": "4680",
+      "rating": "2.2",
+      "review": "56",
+      "platforms": [
+        "Xbox",
+        "ps5",
+        "Switch"
+      ],
+      "text": "A PLAGUETALE REQUIEM русские субтитры"
     },
     {
-        "id": 11435667,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400081693b.jpg",
-        "price": "4899",
-        "rating": "3.8",
-        "review": "87",
-        "label": "11",
-        "platforms": [
-            "Xbox",
-            "ps5",
-            "ps4"
-        ],
-        "text": "Focus Home Atomic Heart"
+      "id": 11435667,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400081693b.jpg",
+      "price": "4899",
+      "rating": "3.8",
+      "review": "87",
+      "label": "11",
+      "platforms": [
+        "Xbox",
+        "ps5",
+        "ps4"
+      ],
+      "text": "Focus Home Atomic Heart"
     },
     {
-        "id": 125476,
-        "src": "https://img.mvideo.ru/Pdb/small_pic/480/400282660b.jpg",
-        "price": "9899",
-        "rating": "4.9",
-        "review": "456",
-        "label": "69",
-        "platforms": [
-            "ps5",
-            "ps4"
-        ],
-        "text": "Sony The Last of Us Part 2. Remastered"
+      "id": 125476,
+      "src": "https://img.mvideo.ru/Pdb/small_pic/480/400282660b.jpg",
+      "price": "9899",
+      "rating": "4.9",
+      "review": "456",
+      "label": "69",
+      "platforms": [
+        "ps5",
+        "ps4"
+      ],
+      "text": "Sony The Last of Us Part 2. Remastered"
     }
-]
+  ]
