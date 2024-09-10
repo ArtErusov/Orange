@@ -45,7 +45,7 @@ const ProductsSection = () => {
         setItems(array);
         setIsLoading(false)
       });
-  }, [setItems, setActivCatygory, setActivSort, sortListProperty]);
+  }, [setItems, setActivCatygory, setActivSort, sortListProperty, sortListVolume]);
 // ======================================
   return (
     <>

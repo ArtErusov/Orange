@@ -8,12 +8,16 @@ const MainCard = ({ data }) => {
   return (
     <div className={styles.card}>
       <img src={data.src} alt="" />
-      {data.label && (
+      {data.label !== "0" && (
         <div className={styles.card_label}>
           <p>- {data.label}%</p>
         </div>
       )}
-      {data.label ? (
+      {data.label  ? (
+        <div className={styles.card_price}>
+          <p className={styles.card_price_end}>{data.price} ₽</p>
+        </div>
+      ):(
         <div className={styles.card_price}>
           <p className={styles.card_price_end}>{percentages.toFixed(0)} ₽</p>
           <div className={styles.card_price_old}>
@@ -21,11 +25,7 @@ const MainCard = ({ data }) => {
             <p>{data.price} ₽</p>
           </div>
         </div>
-      ) : (
-        <div className={styles.card_price}>
-          <p className={styles.card_price_end}>{data.price} ₽</p>
-        </div>
-      )}
+      ) }
       <p className={styles.card_text}>{data.text}</p>
       <div className={styles.card_rating}>
         <img src={star} alt="" />
