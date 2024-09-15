@@ -13,9 +13,11 @@ dist-ssr
 *.local
 
 # git pull https://github.com/ArtErusov/Orange
+# reduxToolkit
 # git add .
 # git commit -m “ ”
 # git push origin master
+# git push origin reduxToolkit
 
 # Editor directories and files
 .vscode/*
