@@ -16,6 +16,8 @@ dist-ssr
 # git add .
 # git commit -m “ ”
 # git push origin master
+# ======
+# git switch master
 
 # Editor directories and files
 .vscode/*
